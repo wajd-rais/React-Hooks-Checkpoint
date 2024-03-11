@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #54545c;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 70px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #577a9e;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.movie-card {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-color: #06192c;
+  border-style: ridge;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.movie-card .title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #06192c;
+  margin-bottom: 10px;
+}
+
+.movie-card .description {
+  font-size: 20px;
+  color: #282a2c;
+  margin-bottom: 10px;
+}
+
+.movie-card .rating {
+  font-size: 18px;
+  color: #007bff;
+}
+
+.filter-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filter-button:hover {
+  background-color: #0056b3;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.filter input[type="text"],
+.filter input[type="number"]{
+  width: 97%; 
+  padding: 10px;
+  font-size: 16px; 
+  border: 3px solid #203bd1;
+  border-radius: 5px;
+}
+
+.add-movie-button {
+  background-color: #203bd1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.movie-form-card {
+  width: 94.5%;
+  background-color: #f9f9f9;
+  border: 3px solid #490ea8;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.movie-form-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.movie-form-card input[type="text"],
+.movie-form-card textarea,
+.movie-form-card input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.movie-form-card input[type="submit"] {
+  background-color: #203bd1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
